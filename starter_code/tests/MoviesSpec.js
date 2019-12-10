@@ -7,7 +7,6 @@
 
 describe("Order the movies by year - orderByYear", function() {
   it("Defines orderByYear", function() {
-
     expect(typeof orderByYear).toBe("function");
   });
 
@@ -17,7 +16,6 @@ describe("Order the movies by year - orderByYear", function() {
 
   it("Should return a new array", function() {
     var arr = [];
-
     expect(orderByYear(arr)).toBe(arr);
   });
 
